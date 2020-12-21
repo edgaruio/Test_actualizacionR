@@ -2,7 +2,7 @@
 
 data <- iris
 
-# library(writexl)
+library(writexl)
 # 
 # write_xlsx(data, "Salidas/iris.xlsx")
 saveRDS(data, "Salidas/iris.rds")
